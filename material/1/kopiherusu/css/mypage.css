@@ -1,0 +1,94 @@
+.top{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.background{
+	color: #2A2424;
+	display: flex;
+	/* 	左右中央 */
+	justify-content: center;
+	/* 	上下中央 */
+	align-items: center;
+	
+	background: #C7F0ED;
+	width: 630px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+h2{
+	font-size: 2rem;
+	line-height: 30px;
+	text-align: center;
+}
+
+h3{
+	width: 1000px;
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+	padding: 70px;
+	margin: 0 auto;
+}
+
+.coffee img,.coffee .Txt{
+	padding: 0 40px;
+}
+
+.coffee li{
+	border: solid 1px #707070;
+	width: 750px;
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto 50px;
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+
+.coffee .Txt{
+/* 	border: solid 1px tomato; */
+	text-align: left;
+/* 	padding-top: 60px; */
+}
+
+.coffee .Txt .topT{
+	font-size: 1.6em;
+	font-weight: 500;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.coffee .Txt .bottomT{
+	font-size: 1.4em;
+	font-weight: 400;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.coffee .Txt .buyBtn{
+	width: 160px;
+	height: 50px;
+	background-color: #C7F0ED;
+	font-size: 1.6em;
+	font-weight: 400;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 20px;
+}
+
+.Txt a:link,
+.Txt a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.Txt .buyBtn:hover{
+	background-color: #C9EBE9;
+}

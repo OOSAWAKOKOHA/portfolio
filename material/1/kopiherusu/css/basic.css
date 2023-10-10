@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+/*
+ページ共通の設定
+*/
+html{
+	font-size: 62.5%;
+}
+body{
+	background-color: #F4FDFF;
+	font-family: 'Kiwi Maru', serif;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.clear::after{
+	display: block;
+	content: '';
+	height: 0;
+	clear: both;
+}
+
+/* リンクボタンのスタイル */
+.linkBtn{
+	font-size: 2em;
+	display: block;
+	background: #C7F0ED;
+	width: 300px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+}
+.linkBtn:link,
+.linkBtn:visited{
+	color: #000;
+	text-decoration: none;
+}
+.linkBtn:hover{
+	background: #C9EBE9;
+}
+
+/*
+	ヘッダーのスタイル
+*/
+.hedder{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	height: 193px;
+	margin: 66px auto 80px;
+}
+
+.logo{
+/* 	border: solid 1px tomato; */
+	float: left;
+	margin-bottom: 40px;
+}
+
+.minNavigation{
+/* 	border: solid 1px tomato; */
+	width: 400px;
+	border-bottom: solid 0.3em #707070;
+	float: right;
+	margin: 60px auto 10px;
+}
+
+.minNavigation li{
+/* 	border: solid 1px tomato; */
+	font-size: 2em;
+	height: 35px;
+	width: 200px;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+	margin-bottom: 10px;
+}
+
+.minNavigation li a{
+	display: block;
+	padding: 0.2em 0;
+}
+
+.minNavigation li a:link,
+.minNavigation li a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+.minNavigation li a:hover{
+	color: #00A5A5;
+}
+
+.navigation{
+	width: 1000px;
+	height: 35px;
+	clear: both;
+}
+
+.navigation li{
+	font-size: 2em;
+	height: 35px;
+	display: inline-block;
+	border-right: solid 2px #000;
+	border-left: solid 2px #000;
+	padding: 0 10px;
+	margin: 0 50px;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+}
+
+.navigation li a:link,
+.navigation li a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+.navigation li a:hover{
+	color: #00A5A5;
+}
+
+.mainImg{
+	width: 100%;
+}
+
+.mainImg img{
+	width: 100%;
+}
+
+h3{
+	font-size: 4em;
+	color: #21958C;
+	text-align: center;
+	margin: 60px auto;
+}
+
+.finalNavigation{
+	width: 1000px;
+	height: 35px;
+	margin: 100px auto 0;
+	clear: both;
+}
+
+.finalNavigation li{
+	font-size: 2em;
+	height: 35px;
+	display: inline-block;
+	border-right: solid 2px #000;
+	border-left: solid 2px #000;
+	padding: 0 10px;
+	margin: 0 50px;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+}
+
+.finalNavigation li a:link,
+.finalNavigation li a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+.finalNavigation li a:hover{
+	color: #00A5A5;
+}
+
+.footer{
+	clear: both;
+}
+
+.copyright{
+	width: 1000px;
+	height: 20px;
+	font-size: 1.4em;
+	font-weight: 300;
+	margin: 50px auto 100px;
+	text-align: center;
+}

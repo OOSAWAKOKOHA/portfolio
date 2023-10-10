@@ -1,0 +1,17 @@
+body {
+  background-color: #A8E1E8;
+  background-image: none;
+}
+
+input[type=search] {
+  border: solid 2px tomato;
+}
+
+.search {
+  width: 50px;
+  height: 35px;
+  background-color: #F39800;
+  color: #FFFFFF;
+  border-radius: 50px;
+  box-shadow: none;
+}

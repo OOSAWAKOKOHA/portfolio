@@ -1,0 +1,76 @@
+.top{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.open{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.background{
+	color: #2A2424;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	
+	background: #C7F0ED;
+	width: 630px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+.background h2{
+	font-size: 2rem;
+	line-height: 30px;
+	text-align: center;
+}
+
+.background p{
+	font-size: 1.6rem;
+	padding: 3px 0 0 0;
+	font-weight: 500;
+}
+
+.openTxt{
+/* 	border: solid 1px tomato; */
+	width: 752px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.openTxt p{
+/* 	border: solid 1px skyblue; */
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 50px;
+	padding: 10px 0;
+}
+
+.linkBtn{
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #C7F0ED;
+	width: 300px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+.linkBtn:link,
+.linkBtn:visited{
+	color: #000;
+	text-decoration: none;
+}
+.linkBtn:hover{
+	background: #C9EBE9;
+}

@@ -1,0 +1,62 @@
+body{
+  font-family: 'Mochiy Pop One', 'Arial Narrow', Arial, sans-serif;
+
+  .mainArea{
+    .cloudBig{
+      width: 180px;
+      margin: 20px;
+    }
+    .cloudSmall{
+      width: 110px;
+      margin-left: 250px;
+    }
+    .carPosition{
+      position: relative;
+      .car{
+        width: 140px;
+        position: absolute;
+        top: 170px;
+        left: 40px;
+      }
+      .sign{
+        img{
+          width: 90px;
+          position: absolute;
+          top: 210px;
+          left: 149px;
+        }
+        p{
+          position: absolute;
+          top: 221px;
+          left: 162px;
+        }
+      }
+    }
+    .tomato{
+      width: 120px;
+      position: absolute;
+      top: 550px;
+      left: 100px;
+    }
+    .exWrap{
+      position: absolute;
+      background-color: #F39800;
+      width: 100px;
+      height: 230px;
+      top: 480px;
+      left: 260px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      p{
+        width: 60px;
+        height: 60px;
+        background-color: #FFF;
+        text-align: center;
+        line-height: 60px;
+        margin: auto;
+        border-radius: 10px;
+      }
+    }
+  }
+}

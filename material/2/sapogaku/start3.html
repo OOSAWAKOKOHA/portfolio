@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生情報登録</title>
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/start3.css">
+</head>
+<body>
+    <h1>学生情報登録</h1>
+
+    <form action="start4.html" method="post">
+        <p class="text"><label>学校名<br><input type="text" name="sch-name" placeholder="ECCコンピュータ専門学校" required></label></p>
+        <p class="text"><label>学部・学科・コース<br><input type="text" name="cou-name" placeholder="Webデザインコース" required></label></p>
+        <p class="select">
+            <label>学年<br>
+                    <div class="selectWrap" id="gradeSelect">
+                        <select name="grade" required>
+                            <option value="four">４年</option>
+                            <option value="three">３年</option>
+                            <option value="two">２年</option>
+                            <option value="one" selected>１年</option>
+                        </select>
+                    </div>
+                    <label for="gradeSelect"></label>
+            </label>
+        </p>
+        <p class="text"><label>クラス<br></label><input type="text" name="cla-name" placeholder="WD1A" required></p>
+    </form>
+
+    <a href="start4.html"><button class="btn" type="submit">登録内容確認へ<img src="img/tdesign_arrow-up.svg" alt="右向きの矢印"></button></a>
+
+</body>
+</html>

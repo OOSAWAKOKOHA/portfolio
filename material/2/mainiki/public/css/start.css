@@ -1,0 +1,45 @@
+body {
+  font-family: "Mochiy Pop One", "Arial Narrow", Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+body .start {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+body .start img {
+  width: 280px;
+  height: 480px;
+}
+body .questionWrap {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+body .questionWrap .question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 480px;
+  border: solid 3px #2D885B;
+  border-radius: 10px;
+  text-align: center;
+}
+body .questionWrap .question input[type=text], body .questionWrap .question .pulldown {
+  width: 200px;
+  border-bottom: solid 2px #333;
+}
+body .questionWrap .question .box {
+  margin: 25px 0;
+}

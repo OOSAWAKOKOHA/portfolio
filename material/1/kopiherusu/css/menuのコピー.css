@@ -1,0 +1,218 @@
+/* 全体 */
+
+.all{
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h4{
+	font-size: 2.5rem;
+	font-weight: 400;
+	text-align: center;
+	margin: 50px auto;
+	clear: both;
+}
+
+h5{
+	font-size: 3rem;
+	font-weight: 300;
+	text-align: center;
+	clear: both;
+}
+
+.linkBtn{
+	font-size: 2.5em;
+}
+
+.linkBtn:link,
+.linkBtn:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.linkBtn:hover{
+	background: #C9EBE9;
+}
+
+/* 個々 */
+
+.two p{
+/* 	border: solid 1px black; */
+	width: 300px;
+	height: 90px;
+	float: left;
+	margin: 50px 100px;
+}
+
+.two .linkBtn{
+	font-size: 2.5rem;
+	display: block;
+	background: #C7F0ED;
+	width: 300px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+}
+
+.food{
+/* 	border: solid 1px black; */
+	width: 1000px;
+	height:3560px;
+	margin: 300px auto 50px;
+	clear: both;
+}
+
+.two a:link,
+.two a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.two a:hover{
+	background: #C9EBE9;
+}
+
+/* #foodTxt a:link,
+#foodTxt a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+#foodTxt a:hover{
+	background: #C9EBE9;
+} */
+
+.food h5{
+	margin: 100px auto;
+}
+
+.food ul{
+/* 	border: solid 1px black; */
+	width: 1000px;
+	height: 770px;
+	margin: 50px auto;
+	clear: both;
+}
+
+.food .five{
+/* 	border: solid 1px blue; */
+	width: 1000px;
+	height: 1160px;
+	margin: 0 auto;
+}
+
+.food li{
+	border: solid 1px #707070;
+	width: 346px;
+	height: 333px;
+	float: left;
+	text-align: left;
+	line-height: 30px;
+	font-size: 1.6em;
+	font-weight: 300;
+	margin: 20px 75px;
+	display: block;
+	background: #FFFFFF;
+	line-height: 40px;
+	border-radius: 10px;
+	text-indent: 23px;
+}
+
+.food .reco{
+	font-weight: 400;
+}
+
+.food .price{
+	display: inline-block;
+}
+
+.food .etc{
+	float: right;
+	margin-right: 25px;
+}
+
+.food a:link,
+.food a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+/* .food:hover{
+	background: #C9EBE9;
+} */
+
+/* .food .etc a:link,
+.food .etc a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.food .etc a:hover{
+	background: #C9EBE9;
+} */
+
+.coffee{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+}
+
+.coffee h5{
+	margin: 1300px auto;
+}
+
+.coffee ul{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.coffee li{
+	border: solid 1px #707070;
+	width: 296px;
+	height: 250px;
+	font-size: 1.6em;
+	font-weight: 300;
+	text-align: center;
+	display: block;
+	background: #FFFFFF;
+	line-height: 100px;
+	border-radius: 10px;
+/* 	text-indent: 25px; */
+	float: left;
+	margin: 80px 100px;
+}
+
+.coffee .linkBtn{
+	font-size: 2rem;
+	display: block;
+	background: #C7F0ED;
+	width: 200px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+	clear: both;
+	margin: 0 auto;
+}
+
+.coffee .linkBtn:link,
+.coffee .linkBtn:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.coffee .linkBtn:hover{
+	background: #C9EBE9;
+}
+
+.coffee .linkBtn a:link,
+.coffee .linkBtn a:visited{
+	color: #000;
+	text-decoration: none;
+}

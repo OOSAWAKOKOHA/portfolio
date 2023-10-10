@@ -1,0 +1,69 @@
+h2{
+	font-size: 3rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+.cantactAll{
+	width: 800px;
+	height: 150px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.cantactIn{
+	font-size: 1.6rem;
+	font-weight: 300;
+	text-align: center;
+	line-height: 50px;
+}
+
+.linkBtn{
+	margin: 0 auto;
+}
+
+a:link,
+a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+
+.two{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	height: 150px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.two p{
+/* 	border: solid 1px black; */
+	width: 300px;
+	height: 90px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.two .linkBtn{
+	font-size: 2rem;
+	display: block;
+	background: #C7F0ED;
+	width: 300px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+}
+
+.two p:link,
+.two p:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.two p:hover{
+	background-color: #C9EBE9;
+}

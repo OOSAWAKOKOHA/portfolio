@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #77C9D4;
+    font-family: "Noto Sans JP" ,sans-serif;
+}
+h1{
+    width: 192px;
+    margin: 120px auto 0;
+}
+table{
+    width: 624px;
+    margin: 80px auto;
+    /* border: solid 1px #666;
+    border-radius: 10px;
+    background-color: #FFF;
+    border-collapse:collapse; */
+    border: 1px solid #000;
+    border-collapse: separate;/*collapseから変更*/
+    border-spacing: 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+/* table th{
+    border:1px solid #000;
+} */
+table td{
+    border-left:1px solid #000;
+}
+th,td{
+    padding: 0.5em 1em;
+    line-height: 2em;
+    padding: 12px;
+    border-bottom: 1px solid #000;
+}
+
+tr:last-child th,
+tr:last-child td{
+    border-bottom: none;
+}

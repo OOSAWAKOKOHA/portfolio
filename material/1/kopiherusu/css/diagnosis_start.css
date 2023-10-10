@@ -1,0 +1,26 @@
+h2{
+	font-size: 4em;
+	color: #21958C;
+	text-align: center;
+	margin: 60px auto;
+	clear: both;
+}
+
+.aboutall{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.aboutall .aboutTex{
+/* 	border: solid 1px tomato; */
+	font-size: 1.6em;
+	font-weight: 500;
+	text-align: center;
+	line-height: 50px;
+}
+
+.aboutall .linkBtn{
+	margin: 60px auto 0;
+}

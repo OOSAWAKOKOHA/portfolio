@@ -1,0 +1,202 @@
+/* 全体 */
+
+.all{
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h4{
+	font-size: 3rem;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 auto 30px;
+	clear: both;
+}
+
+h5{
+	font-size: 3rem;
+	font-weight: 300;
+	text-align: left;
+	clear: both;
+}
+
+.linkBtn{
+	font-size: 2.5rem;
+	margin: 50px auto;
+}
+
+.linkBtn a:link,
+.linkBtn a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.linkBtn a:hover{
+	background: #C9EBE9;
+}
+
+/* 個々 */
+
+.firstTxt{
+	font-size: 1.6rem;
+	line-height: 50px;
+	margin: 50px auto 140px;
+}
+
+.foodAll{
+/* 	border: solid 1px tomato; */
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 30px 6% 0;
+}
+
+.Food .content{
+	border-right: dotted 2px #707070;
+	width: 150px;
+	height: 660px;
+	font-size: 1.4rem;
+	line-height: 40px;
+	text-align: left;
+	position: sticky;
+	top: 20px;
+}
+
+.Food .type,.Food .buy{
+	font-size: 1.6rem;
+}
+
+.Food .buy{
+	margin-top: 30px;
+}
+
+/* .Food .type::before,.Food .buy::before{
+	content: "▷";
+} */
+
+.Food .content a{
+	position: relative;
+  	display: inline-block;
+  	transition: .3s;
+}
+
+.Food .content a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 1px;
+  background-color: #00A5A5;
+  transition: .3s;
+}
+.Food .content a:hover::after {
+  width: 100%;
+}
+
+
+.Food .content li a:link,
+.Food .content li a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+.Food .content li a:hover{
+	color: #00A5A5;
+}
+
+.foodType{
+/* 	border: solid 1px skyblue; */
+	width: 670px;
+}
+
+.foodType h4::before{
+	content: "▷";
+}
+
+.foodType h5{
+	border-left: solid 3px #707070;
+	text-indent: 10px;
+	margin-top: 50px;
+}
+
+.foodType ul{
+/* 	border: solid 1px tomato; */
+	width: 670px;
+	height: 790px;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: flex-start;
+}
+
+.foodType li{
+	border: solid 1px #707070;
+	width: 276px;
+/* 	height: 313px; */
+	text-align: left;
+	line-height: 30px;
+	font-size: 1.6em;
+	font-weight: 300;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	display: inline-block;
+	background: #FFFFFF;
+	line-height: 40px;
+	border-radius: 10px;
+	padding: 0 20px 10px;
+}
+
+.foodType li:nth-child(2n){
+    margin-right: 0;
+}
+
+.foodType li:nth-child(4n){
+    margin-right: 0;
+}
+
+.foodType .reco{
+	font-weight: 400;
+}
+
+.foodType .price{
+	display: inline-block;
+}
+
+.foodType .etc{
+	float: right;
+	margin-right: 25px;
+}
+
+
+.foodType .reco,.foodType .etc{
+	background-color: #C7F0ED;
+	margin: 5px;
+	padding: 0 10px;
+	border-radius: 15px;
+	display: inline-block;
+}
+
+a:link,
+a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.reco:hover{
+	background-color: #C9EBE9;
+	border-radius: 15px;
+}
+
+.etc:hover{
+	background-color: #C9EBE9;
+	border-radius: 15px;
+}
+
+
+/* 別追加 */
+
+.foodType .roastType{
+	margin-top: 100px;
+}

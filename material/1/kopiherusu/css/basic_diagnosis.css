@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+/*
+ページ共通の設定
+*/
+html{
+	font-size: 62.5%;
+}
+body{
+	background-color: #F4FDFF;
+	font-family: 'Kiwi Maru', serif;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.clear::after{
+	display: block;
+	content: '';
+	height: 0;
+	clear: both;
+}
+
+/* リンクボタンのスタイル */
+.linkBtn{
+	font-size: 2em;
+	display: block;
+	background: #C7F0ED;
+	width: 300px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+}
+.linkBtn:link,
+.linkBtn:visited{
+	color: #000;
+	text-decoration: none;
+}
+.linkBtn:hover{
+	background: #C9EBE9;
+}
+
+/*
+	ヘッダーのスタイル
+*/
+.hedder{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	height: 130px;
+	margin: 66px auto 80px;
+}
+
+.logo{
+/* 	border: solid 1px tomato; */
+	width: 470px;
+	height: 120px;
+	float: left;
+	margin-bottom: 40px;
+}
+
+.MinNavigation{
+/* 	border: solid 1px tomato; */
+	width: 400px;
+	border-bottom: solid 0.3em #707070;
+	float: right;
+	margin: 60px auto 10px;
+}
+
+.MinNavigation li{
+/* 	border: solid 1px tomato; */
+	font-size: 2em;
+/* 	height: 30px; */
+	width: 400px;
+	text-align: center;
+	line-height: 35px;
+	text-align: center;
+	margin: 0 auto 10px;
+}
+
+.MinNavigation li a:link,
+.MinNavigation li a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+.MinNavigation li a:hover{
+	color: #00A5A5;
+}
+
+
+.q{
+	width: 1000px;
+	margin: 35px auto;
+	text-align: center;
+}
+
+.q p{
+	font-size: 2.4em;
+	font-weight: 500;
+}
+
+.q-title {
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+}
+
+
+
+.finalNavigation{
+	width: 1000px;
+	height: 35px;
+	margin: 100px auto 0;
+	clear: both;
+}
+
+.finalNavigation li{
+	font-size: 2em;
+	height: 35px;
+	display: inline-block;
+	border-right: solid 2px #000;
+	border-left: solid 2px #000;
+	padding: 0 10px;
+	margin: 0 50px;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+}
+
+.finalNavigation li a:link,
+.finalNavigation li a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+.finalNavigation li a:hover{
+	color: #00A5A5;
+}
+
+.footer{
+	clear: both;
+}
+
+.copyright{
+	width: 1000px;
+	height: 20px;
+	font-size: 1.4em;
+	font-weight: 300;
+	margin: 50px auto 100px;
+	text-align: center;
+}

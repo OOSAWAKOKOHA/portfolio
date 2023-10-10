@@ -1,0 +1,109 @@
+.top{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.background{
+	color: #2A2424;
+	display: flex;
+	/* 	左右中央 */
+	justify-content: center;
+	/* 	上下中央 */
+	align-items: center;
+	
+	background: #C7F0ED;
+	width: 630px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+h2{
+	font-size: 2rem;
+	line-height: 30px;
+	text-align: center;
+}
+
+.q{
+	width: 1000px;
+	margin: 35px auto;
+	text-align: center;
+}
+
+.q p{
+	font-size: 2.4em;
+	font-weight: 500;
+	padding: 30px 0;
+}
+
+.q-title {
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+.qIn {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.label{
+	display: block;
+	width: 326px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	font-size: 1.8em;
+	background-color: #FFFFFF;
+	border: solid 1px #707070;
+}
+
+.qIn input:checked+label{
+    background: #C7F0ED;
+    border: solid 1px #707070;
+}
+
+
+
+.two{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	height: 200px;
+	margin: 80px auto;
+}
+
+.two p{
+/* 	border: solid 1px black; */
+	width: 300px;
+	height: 90px;
+	float: left;
+	margin: 50px 100px;
+}
+
+.two .linkBtn{
+	font-size: 2rem;
+	display: block;
+	background: #C7F0ED;
+	width: 300px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+}
+
+.two a:link,
+.two a:visited{
+	color: #000;
+	text-decoration: none;
+}

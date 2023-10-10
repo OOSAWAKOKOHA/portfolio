@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #77c9d4;
+    font-family: "Noto Sans JP" ,sans-serif;
+}
+
+h1{
+    width: 192px;
+    margin: 120px auto 0;
+}
+
+form{
+    width: 510px;
+    margin: 88px auto 0;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    width: 478px;
+    margin: 28px auto;
+    padding: 0.5em 1em;
+    line-height: 1.5;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: none;
+}
+input[type="checkbox"]{
+    margin: auto 0;
+    cursor: pointer;
+}
+
+a{
+    position: relative;
+    display: block;
+    width: 320px;
+    margin: 80px auto;
+    text-decoration: none;
+    border-radius: 32px;
+    color: #000;
+    cursor: pointer;
+}
+a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.btn{
+    width: 320px;
+    padding: 0.7em 0.5em;
+    background-color: #FFF;
+    font-weight: bold;
+    border-radius: 32px;
+    border: none;
+}
+.btn img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 24px;
+    margin: auto;
+}

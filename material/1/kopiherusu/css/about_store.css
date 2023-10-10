@@ -1,0 +1,55 @@
+h4{
+	width: 1000px;
+	height: 45px;
+	font-size: 3em;
+	color: #50A28B;
+	text-align: center;
+	line-height: 45px;
+	margin: 0 auto 100px;
+}
+
+.aboutoll{
+	width: 1200px;
+	height: 410px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.aboutoll .aboutImg{
+	width: 620px;
+	height: 410px;
+	transform: translateX(-50px);
+}
+
+.aboutoll .aboutEtc{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 600px;
+	transform: translateX(-155px);
+}
+
+.aboutoll .aboutTex{
+	width: 600px;
+	height: 240px;
+	font-size: 1.6em;
+	font-weight: 300;
+	text-align: left;
+	line-height: 1.7;
+	clear: both;
+	transform: translateY(50px);
+}
+
+
+.aboutoll .linkBtn{
+	margin: 0 auto;
+}
+
+.aboutoll .linkBtn a:link,
+.aboutoll .linkBtn a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+
+

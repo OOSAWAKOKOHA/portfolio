@@ -1,0 +1,35 @@
+.adles{
+	font-size: 1.6em;
+	font-weight: 500;
+	text-align: center;
+	line-height: 40px;
+}
+
+.accessAll{
+	width: 1000px;
+	height: 380px;
+	margin: 50px auto 0;
+}
+
+.accessAll .map{
+	width: 380px;
+	height: 380px;
+	float: left;
+	margin: 0 60px;
+}
+
+.accessAll .access{
+	width: 360px;
+	height: 200px;
+	float: right;
+	margin: 90px 60px;
+}
+
+.accessAll .access p{
+	width: 360px;
+	height: 200px;
+	font-size: 1.6em;
+	font-weight: 500;
+	text-align: center;
+	line-height: 40px;
+}

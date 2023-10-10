@@ -1,0 +1,26 @@
+G ; コマンド
+git init ← フォルダ内でgitを扱えるようにする
+
+git add ? ← 変更があったファイルを選択してステージ(gitにあげるもの)する
+git add . ← 変更があったファイルを全てあげる
+
+git commit -m '?' ← 変更した内容にコメント残す ?=コメント内容
+
+git branch -M main 
+← masterブランチになってるものmainブランチに変えてくれる
+
+git remote add origin https://github.com/FujieRyou/practice.git ← リモートブランチをURLで指定する
+
+git push origin  -u ? ← 指定したリモートブランチにコミットした内容をpushする ?=ブランチ名
+
+git pull  origin ? ← ?ブランチに??ブランチをダウンロードする ?=コピー元ブランチ
+
+; ブランチ関連のコマンド 
+git branch ← ブランチ一覧 色がついているブランチが今作業しているブランチ
+
+git branch ? ← 新たにブランチを作成する ?=作成するブランチ名
+
+Git  ? ← 作業ブランチを移動する ?=移動したいブランチ名
+
+; 補足
+.gitignore ← リポジトリにアップロードをしたくないファイルを指定できるファイル(アップロードしたくないフォルダや名前を中に追記する)
